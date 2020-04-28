@@ -32,13 +32,13 @@ $(greeter).on("ready", function(e) {
 
 	/* Bind shutdown, restart hibernate and suspend to the
 	appropriate buttons */
-	$("#buttonPoweroff").click(function() {
+	$("#buttonShutdown").click(function() {
 		greeter.shutdown();
 	});
 	$("#buttonRestart").click(function() {
 		greeter.restart();
 	});
-	$("#hibernate").click(function() {
+	$("#buttonHibernate").click(function() {
 		greeter.hibernate();
 	});
 
